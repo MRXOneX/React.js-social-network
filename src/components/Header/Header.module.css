@@ -1,0 +1,64 @@
+.header {
+    grid-area: header;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(84, 150, 201, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(84, 150, 201, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(84, 150, 201, 0.2);
+
+}
+.header img {
+    width: 30px;
+}
+.loginBlock {
+    float: right;
+}
+.logo {
+    cursor: pointer;
+    padding: 13px 0 13px 13px;
+    float: left;
+    grid-area: logoimg;
+}
+.blockSocialNetworkName {
+    font-weight: 600;
+    padding: 16px 0 10px 5px;
+    float: left;
+    grid-area: logoname;
+}
+
+.logo img {
+    width: 30px;
+}
+.btnLogout,.btnLogin {
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 15px 0 0;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    transition: .6s;
+}
+.btnLogout {
+    margin-left: 5px;
+    background: -webkit-linear-gradient(45deg, rgb(83, 208, 97), rgb(18, 167, 114));
+    background: -moz-linear-gradient(45deg, rgb(83, 208, 97), rgb(18, 167, 114));
+    background: linear-gradient(45deg, rgb(83, 208, 97), rgb(18, 167, 114));
+}
+.btnLogin {
+    background: rgb(119,233,1);
+    background: linear-gradient(90deg, rgba(119,233,1,0.36738445378151263) 0%, rgba(52,46,138,0.7063200280112045) 0%);
+}
+.btnLogout:hover {
+    margin: 5px 15px 0 0;
+    font-size: 22px;
+}
+.btnLogin:hover {
+    font-size: 18px;
+}
+.nameUser {
+    font-weight: 600;
+    font-size: 20px;
+}

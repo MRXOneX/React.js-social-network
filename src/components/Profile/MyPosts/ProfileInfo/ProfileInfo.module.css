@@ -1,0 +1,87 @@
+
+.ava_descr {
+    padding: 10px;
+}
+.ava {
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+}
+.blockAva {
+    display: inline;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(84, 150, 201, 0.4);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(84, 150, 201, 0.4);
+    box-shadow: 0px 5px 10px 2px rgba(84, 150, 201, 0.4);
+}
+.information {
+    border-radius: 10px;
+    float: right;
+    display: inline;
+    width: 600px;
+    height: 320px;
+    background: rgb(111,117,235);
+    background: linear-gradient(90deg, rgba(111,117,235,0.9528186274509804) 0%, rgba(229,229,237,1) 0%);
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(220, 221, 221, 0.47);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(220, 221, 221, 0.47);
+    box-shadow: 0px 5px 10px 2px rgba(220, 221, 221, 0.47);
+}
+.blockStatusAndNameUser {
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0);
+    box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0);
+    width: 600px;
+    border-radius: 10px 10px 0 0;
+    height: 100px;
+}
+.nameUser {
+    font-weight: 500;
+    font-size: 24px;
+    padding: 10px 0 0 20px;
+
+}
+.status {
+    margin: 5px 0 0 10px;
+    cursor: pointer;
+    float: left;
+    border-radius: 5px;
+    padding: 3px 0 4px 8px;
+    width: 500px;
+    opacity: .7;
+    outline: none;
+}
+.status:hover {
+    background: rgb(119,233,1);
+    background: linear-gradient(90deg, rgba(119,233,1,0.36738445378151263) 0%, rgba(190,189,196,0.2049194677871149) 0%);
+}
+.blockInformation {
+    width: 600px;
+    border-radius: 0 0 10px 10px;
+    height: 200px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0);
+    box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0);
+}
+.aboutMe {
+    height: 200px;
+    width: 300px;
+    float: left;
+
+}
+.aboutMe span{
+
+    padding: 10px;
+
+}
+.contacts {
+    height: 200px;
+    width: 300px;
+    float: right;
+}
+.contacts span {
+    margin-left: 55px;
+}
+.contact {
+
+}

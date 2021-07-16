@@ -1,0 +1,17 @@
+.form_control {
+
+}
+.form_control.error input,
+.form_control.error textarea {
+    border: 2px solid red;
+}
+.form_control.error span {
+    color: red;
+}
+.formSummaryError {
+    border: 1px solid red;
+    color: red;
+}
+.captchaPhoto {
+    width: 150px;
+}

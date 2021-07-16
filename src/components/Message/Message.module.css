@@ -1,0 +1,28 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+}
+
+.dialogs_items {
+    padding: 10px;
+    color: gold;
+}
+
+.dialogs_items .active {
+    color: white;
+}
+
+.dialog {
+
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message {
+    color: gold;
+}
+.ava_dialog {
+    width: 30px;
+}

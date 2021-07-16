@@ -1,0 +1,28 @@
+.posts_block {
+    margin-top: 50px;
+    padding: 10px;
+}
+.posts_block h3 {
+    font-size: 26px;
+}
+.posts {
+    margin-top: 10px;
+}
+.formPost {
+    height: 100px;
+}
+.textarea {
+    outline: none;
+    resize: none;
+}
+.btnAddPost {
+    margin-top: -20px;
+    margin-left: 140px;
+}
+.btnAddPost button {
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
