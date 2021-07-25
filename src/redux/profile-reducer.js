@@ -97,9 +97,6 @@ export const saveProfile = (profile) => async (dispatch, getState) => {
     let response = await profileAPI.saveProfile(profile)
     if(response.data.resultCode === 0) {
         dispatch(getUserProfile(userId))
-    } else {
-        debugger
-        dispatch(stopSubmit("edit-profile", {_error: response.data.messages[0]}));
     }
 }
 export default profileReducer;

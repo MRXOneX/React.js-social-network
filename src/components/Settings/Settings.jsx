@@ -1,19 +1,15 @@
-import classes from './Settings.module.css';
 import {connect} from "react-redux";
-import {useEffect} from "react";
-import ProfileDataFormReduxForm from "../Profile/MyPosts/ProfileInfo/ProfileDataForm";
-import {getUserProfile} from "../../redux/profile-reducer";
+import ProfileDataForm from "../Profile/MyPosts/ProfileInfo/ProfileDataForm";
 
 function Settings(props) {
     debugger
     return (
         <div>
-            <ProfileDataFormReduxForm profile={props.profile}/>
+            <ProfileDataForm/>
         </div>
-    );
+    )
 }
 const mapStateToProps = (state) => {
-    debugger
     return {
         profile: state.profilePage.profile
     }

@@ -2,24 +2,19 @@ import classes from './ProfileInfo.module.css'
 import Preloader from "../../../common/Preloader/Preloader";
 import ProfileStatusWithHooks from "./ProfileStatusWithHooks";
 import userAva from "../../../../assets/images/usersAva.jpg";
-import {useState} from "react";
-import ProfileDataFormReduxForm from "./ProfileDataForm";
-import Settings from "../../../Settings/Settings";
-import SettingsContainer from "../../../Settings/Settings";
 
 function ProfileInfo(props) {
     if (!props.profile) {
         return <Preloader/>
     }
-    const onMainPhotoSelected = (e) => {
+    /*const onMainPhotoSelected = (e) => {
         if (e.target.files.length) {
             props.savePhoto(e.target.files[0]);
         }
     }
     const onSubmit = (formData) => {
         props.saveProfile(formData)
-    }
-    debugger
+    }*/
     return (
         <div>
             <div className={classes.ava_descr}>
@@ -68,21 +63,23 @@ const ProfileData = (props) => {
             </div>
 
             <div className={classes.contacts}>
-                <span>
+                {/*<span>
                 <span><b>Contacts</b></span> {Object.keys(props.profile.contacts).map(key => {
                     return <Contact key={key} contactTitle={key} contactValue={props.profile.contacts[key]}/>
 
                 })}
-            </span>
+            </span>*/}
             </div>
         </span>
     )
 }
+/*
 const Contact = ({contactTitle, contactValue}) => {
     return <span className={classes.contact}>
         <br/>
         <b>{contactTitle}</b>: {contactValue}
     </span>
 }
+*/
 
 export default ProfileInfo;
